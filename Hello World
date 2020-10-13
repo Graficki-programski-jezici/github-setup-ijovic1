@@ -1,10 +1,11 @@
-
 /* Ivona Jovic */
 
-int main(){
-int a;
+#include <stdio.h>
+#include <stdlib.h>
 
-if (a == 5)
-printf("Varijabla ima vrijednost %d", &a);
+int main() {
+	int a = 5;
 
+	if (a == 5)
+		printf("Varijabla ima vrijednost %d", a);
 }
